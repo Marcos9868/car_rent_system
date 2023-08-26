@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/marcos/Área de Trabalho/Marcos/Exercícios C#/CarRentSystem/CarRentSystem.csproj": {}
+    "/home/marcos/Área de Trabalho/Marcos/Codetech/car_rent_system/CarRentSystem.csproj": {}
   },
   "projects": {
-    "/home/marcos/Área de Trabalho/Marcos/Exercícios C#/CarRentSystem/CarRentSystem.csproj": {
+    "/home/marcos/Área de Trabalho/Marcos/Codetech/car_rent_system/CarRentSystem.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/marcos/Área de Trabalho/Marcos/Exercícios C#/CarRentSystem/CarRentSystem.csproj",
+        "projectUniqueName": "/home/marcos/Área de Trabalho/Marcos/Codetech/car_rent_system/CarRentSystem.csproj",
         "projectName": "CarRentSystem",
-        "projectPath": "/home/marcos/Área de Trabalho/Marcos/Exercícios C#/CarRentSystem/CarRentSystem.csproj",
+        "projectPath": "/home/marcos/Área de Trabalho/Marcos/Codetech/car_rent_system/CarRentSystem.csproj",
         "packagesPath": "/home/marcos/.nuget/packages/",
-        "outputPath": "/home/marcos/Área de Trabalho/Marcos/Exercícios C#/CarRentSystem/obj/",
+        "outputPath": "/home/marcos/Área de Trabalho/Marcos/Codetech/car_rent_system/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/marcos/.nuget/NuGet/NuGet.Config"
@@ -39,6 +39,10 @@
           "targetAlias": "net6.0",
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
               "target": "Package",
               "version": "[7.0.10, )"
             }
