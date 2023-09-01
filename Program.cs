@@ -3,6 +3,8 @@ using Microsoft.Extensions.DependencyInjection;
 using Npgsql.EntityFrameworkCore.PostgreSQL;
 
 using car_rent_system.Data;
+using car_rent_system.Contracts;
+using car_rent_system.Services;
 
 internal class Program
 {
@@ -12,6 +14,7 @@ internal class Program
 
         // Add services to the container.
         builder.Services.AddControllersWithViews();
+        builder.Services.AddScoped<IUserService, UserService>();
 
         var app = builder.Build();
 
