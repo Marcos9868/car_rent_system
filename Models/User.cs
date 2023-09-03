@@ -1,7 +1,9 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Text.Json.Serialization;
 using System.Threading.Tasks;
+using car_rent_system.Models;
 
 namespace car_rent_system.Models
 {
@@ -17,5 +19,7 @@ namespace car_rent_system.Models
         public string Gender { get; set; }
         public string CNH { get; set; }
         public string Expire_Document_Date { get; set; }
+        
+        public ICollection<Car> Cars { get; set; }
     }
 }
